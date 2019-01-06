@@ -36,5 +36,5 @@ setupApiRoutes(app);
 setupAppRoutes(app);
 
 http.createServer(app).listen(process.env.HTTP_PORT, () => {
-  logger.info(`HTTP server is now running on http://giggorilla-react-aymenet1.c9users.io:${process.env.HTTP_PORT}`);
+  logger.info(`HTTP server is now running on http://giggorilla-aymenet1.c9users.io:${process.env.HTTP_PORT}`);
 });
